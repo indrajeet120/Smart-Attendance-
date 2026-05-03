@@ -1,14 +1,13 @@
 streamlit
 
 # Utilities
-numpy
+numpy<2
 pandas
+scikit-learn
 
 # Face recognition
-scikit-learn
 dlib-bin
 git+https://github.com/ageitgey/face_recognition_models
-setuptools
 
 # Database
 supabase
@@ -18,11 +17,11 @@ bcrypt
 segno
 pillow
 
-# UI
-
-
-
-# voice 
+# Voice
 librosa
 resemblyzer
+webrtcvad
 
+# Build tools
+setuptools==80.9.0
+wheel
