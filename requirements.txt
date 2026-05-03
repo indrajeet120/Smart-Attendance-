@@ -18,3 +18,9 @@ pillow
 
 # UI
 streamlit
+
+
+# voice 
+librosa
+resemblyzer
+
